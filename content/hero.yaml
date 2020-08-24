@@ -1,0 +1,13 @@
+headline: A free, cross-platform desktop client for the Graasp ecosystem.
+
+body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+
+button1:
+  label: Free Trial
+  to: '/#'
+
+button2:
+  label: Learn More
+  to: '/#features'
+
+image: images/hero-image.png
