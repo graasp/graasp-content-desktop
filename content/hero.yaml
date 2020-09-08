@@ -1,13 +1,18 @@
 headline: A free, cross-platform desktop client for the Graasp ecosystem.
 
-body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+body: Download the open source, community version of Graasp Desktop for you preferred operating system.
 
 button1:
-  label: Free Trial
-  to: '/#'
+  label: Windows
 
 button2:
-  label: Learn More
-  to: '/#features'
+  label: Linux
+  to: 'https://github.com/graasp/graasp-desktop/releases/latest'
+
+button3:
+  label: Mac
 
 image: images/hero-image.png
+windows: images/windows_logo_purple.png
+linux: images/linux_logo_purple.png
+apple: images/apple_logo_purple.png

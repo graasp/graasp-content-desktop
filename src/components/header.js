@@ -9,7 +9,12 @@ export default () => (
   <header>
     <div className="logo">
       <AnchorLink to="/#top">
-        <img alt="" src={useSiteMetadata().logo} />
+        <img
+          className="logo-image"
+          alt=""
+          src={useSiteMetadata().logo}
+          height="33"
+        />
       </AnchorLink>
     </div>
 

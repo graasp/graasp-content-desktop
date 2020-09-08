@@ -1,20 +1,16 @@
--
-  name: design
-  title: Simple, Clean and Modern Design.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
+- name: interactive
+  title: Interactive, Collaborative Learning Spaces
+  body: Create encapsulated learning activities composed of text, images, videos, and even apps or labs. All these elements are presented in a dynamic and attractive layout, and can be shared with a specific group of students or with a wider audience.
   image: 'images/feature-image-1.png'
--
-  name: responsive
-  title: Fully Responsive.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+- name: offline
+  title: Offline Support
+  body: Graasp Desktop works both online and offline. While online, you can visit and download learning spaces using a link or by searching for spaces that have been tagged near your location. You can then use and share downloaded spaces, even if you no longer have access to an internet connection.
   image: 'images/feature-image-2.png'
--
-  name: cross-browser
-  title: Cross-Browser Compatible.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
+- name: user
+  title: User Management
+  body: With an out-of-the-box user management system, multiple students can use the same application on the same computer. Each user can have custom settings, create private and personal input data, and save their favorite spaces for future access.
   image: 'images/feature-image-3.png'
--
-  name: video
-  title: Video Support.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  vimeo: 14592941
+- name: dashboard
+  title: Learning Analytics
+  body: A visualization dashboard allows teachers to access actions more conveniently and provides an overview of their students’ activities. A more compact dashboard is also provided to students so that they can follow their learning progress.
+  image: 'images/feature-image-4.png'

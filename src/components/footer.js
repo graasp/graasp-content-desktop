@@ -5,14 +5,19 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faChevronUp,
-  faMapMarkerAlt,
+  // faMapMarkerAlt,
   faUsers,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 
 export default () => {
-  const { social, footer, address, contacts } = useSiteMetadata();
+  const {
+    social,
+    footer,
+    // address,
+    contacts,
+  } = useSiteMetadata();
   return (
     <footer>
       <div className="row">
@@ -28,17 +33,17 @@ export default () => {
 
         <div className="six columns right-cols">
           <div className="row">
-            <div className="columns">
-              <FontAwesomeIcon icon={faMapMarkerAlt} />
-              <h3 className="address">Come Visit</h3>
-              <p>
-                {address.line1}
-                <br />
-                {address.line2}
-                <br />
-                {address.line3}
-              </p>
-            </div>
+            {/* <div className="columns"> */}
+            {/*   <FontAwesomeIcon icon={faMapMarkerAlt} /> */}
+            {/*   <h3 className="address">Come Visit</h3> */}
+            {/*   <p> */}
+            {/*     {address.line1} */}
+            {/*     <br />  */}
+            {/*     {address.line2} */}
+            {/*     <br />  */}
+            {/*     {address.line3} */}
+            {/*   </p>  */}
+            {/* </div>  */}
 
             <div className="columns">
               <FontAwesomeIcon icon={faUsers} />
@@ -67,17 +72,21 @@ export default () => {
         </div>
 
         <p className="copyright">
-          &copy; 2014 Woo | Design by
-          <a title="Styleshout" href="http://www.styleshout.com/">
-            Styleshout
-            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
-          </a>{' '}
-          | Ported to Gatsby by
+          &copy; Graasp 2014-
+          {`${new Date().getFullYear()} | `}
           <a
-            href="https://github.com/desmukh/gatsby-starter-woo"
-            title="Fahad Desmukh"
+            title="Terms of Service"
+            href="https://graasp.eu/views/terms_page.client.html"
           >
-            Fahad Desmukh
+            Terms of Service
+            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
+          </a>
+          {' | '}
+          <a
+            href="https://graasp.eu/views/privacy_policy.client.html"
+            title="Privacy Policy"
+          >
+            Privacy Policy
           </a>
         </p>
 
