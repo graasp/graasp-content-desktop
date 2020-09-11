@@ -1,6 +1,6 @@
-headline: A free, cross-platform desktop client for the Graasp ecosystem.
+headline: A Free, Cross-Platform Desktop Client for the Graasp Ecosystem
 
-body: Download the open source, community version of Graasp Desktop for you preferred operating system.
+body: Download the open source, community version of Graasp Desktop for your preferred operating system.
 
 button1:
   label: Windows
@@ -13,6 +13,6 @@ button3:
   label: Mac
 
 image: images/hero-image.png
-windows: images/windows_logo_purple.png
-linux: images/linux_logo_purple.png
-apple: images/apple_logo_purple.png
+windows: images/windows_logo_gray.png
+linux: images/linux_logo_gray.png
+apple: images/apple_logo_gray.png
