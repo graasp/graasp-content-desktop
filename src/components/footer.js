@@ -24,7 +24,7 @@ export default () => {
         <div className="six columns info">
           <div className="footer-logo">
             <AnchorLink to="/">
-              <img src={footer.logo} alt="" />
+              <h2>Graasp Desktop</h2>
             </AnchorLink>
           </div>
 
