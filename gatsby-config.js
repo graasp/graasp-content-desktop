@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   /* Your site config here */
   siteMetadata: {
@@ -76,5 +80,11 @@ module.exports = {
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-smoothscroll`,
     `react-scrollspy`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID,
+      },
+    },
   ],
 };
