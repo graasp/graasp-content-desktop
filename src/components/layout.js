@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
+import CookieConsent from 'react-cookie-consent';
 
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { useSiteMetadata } from '../hooks/use-site-metadata';
@@ -43,6 +44,18 @@ function Layout({ children }) {
 
       <main id="top">{children}</main>
 
+      <CookieConsent
+        location="bottom"
+        buttonText="Accept"
+        cookieName="gatsby-gdpr-google-analytics"
+        buttonStyle={{ background: '#fafafa', fontSize: '13px' }}
+        sameSite="lax"
+      >
+        We use cookies and other tracking technologies to improve your browsing
+        experience on our website, to analyze our website traffic, and to
+        understand where our visitors are coming from. By browsing our website,
+        you consent to our use of cookies and other tracking technologies.
+      </CookieConsent>
       <Footer />
     </>
   );
