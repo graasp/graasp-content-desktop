@@ -9,6 +9,7 @@ import CalltoAction from '../components/call-to-action';
 import Screenshots from '../components/screenshots';
 import Testimonials from '../components/testimonials';
 import Subscribe from '../components/subscribe';
+import GetStarted from '../components/get-started';
 
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 
@@ -22,6 +23,7 @@ export default () => {
     screenshots: Screenshots,
     testimonials: Testimonials,
     subscribe: Subscribe,
+    'get-started': GetStarted,
   };
 
   return (

@@ -1,0 +1,9 @@
+headline: Download Our Getting Started Guide
+
+button1:
+  label: Get Started (EN)
+  to: '/documents/Get%20Started%20(EN).pdf'
+
+button2:
+  label: Get Started (FR)
+  to: '/documents/Get%20Started%20(EN).pdf'

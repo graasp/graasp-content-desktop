@@ -173,7 +173,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, serif;
+  font-family: 'Helvetica', serif;
   font-size: 1em;
 }
 
@@ -245,7 +245,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
@@ -266,7 +266,7 @@ h4,
 h5,
 h6 {
   color: #313131;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
 }
 h1 a,
@@ -347,14 +347,14 @@ blockquote:before {
   font-size: 80px;
   line-height: 0px;
   margin: 0;
-  font-family: arial, sans-serif;
+  font-family: 'Helvetica', sans-serif;
 
   position: absolute;
   top: 30px;
   left: 0;
 }
 blockquote p {
-  font-family: georgia, serif;
+  font-family: 'Helvetica', serif;
   font-style: italic;
   padding: 0;
   font-size: 18px;
@@ -395,7 +395,7 @@ blockquote cite a:visited {
   opacity: 0.45;
   position: absolute;
   font-size: 80px;
-  font-family: Arial, Sans-Serif;
+  font-family: 'Helvetica', Sans-Serif;
 }
 .pull-quote:before {
   content: '\201C';
@@ -416,7 +416,7 @@ blockquote cite a:visited {
 
 /* Abbreviations */
 abbr {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -433,7 +433,7 @@ abbr:hover {
   margin: 0;
   padding: 14px 6px 0 0;
   font-size: 84px;
-  font-family: /* Copperplate */ 'Montserrat', sans-serif;
+  font-family: /* Copperplate */ 'Helvetica', sans-serif;
   font-weight: bold;
   line-height: 60px;
   text-indent: 0;
@@ -548,7 +548,7 @@ li p {
 .stats-tabs li a {
   display: inline-block;
   font-size: 22px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   border: none;
   color: #313131;
@@ -560,7 +560,7 @@ li p {
   display: block;
   margin: 6px 0 0 0;
   font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   color: #8b9798;
 }
 
@@ -682,7 +682,7 @@ button,
 input[type='submit'],
 input[type='reset'],
 input[type='button'] {
-  font: 600 14px/24px 'Montserrat', sans-serif;
+  font: 600 14px/24px 'Helvetica', sans-serif;
   background: #1bb71f;
   color: #fff;
   display: inline-block;
