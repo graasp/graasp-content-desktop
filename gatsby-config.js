@@ -81,9 +81,12 @@ module.exports = {
     `gatsby-plugin-smoothscroll`,
     `react-scrollspy`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        googleAnalytics: {
+          trackingId: process.env.GA_TRACKING_ID,
+          anonymize: true,
+        },
       },
     },
   ],
