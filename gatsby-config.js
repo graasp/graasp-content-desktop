@@ -21,6 +21,7 @@ module.exports = {
     sections: [
       `hero`,
       `features`,
+      `get-started`,
       // `pricing`,
       // `call-to-action`,
       // `screenshots`,
@@ -31,6 +32,7 @@ module.exports = {
     /* Configure the navigation menu */
     menuItems: [
       { path: 'features', label: 'Features' },
+      { path: 'get-started', label: 'Get Started' },
       // { path: 'pricing', label: 'Pricing' },
       // { path: 'screenshots', label: 'Screenshots' },
       // { path: 'testimonials', label: 'Testimonials' },

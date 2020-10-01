@@ -35,7 +35,7 @@ body {
   text-align: center;
 }
 .section-head h1 {
-  font: bold 20px/36px 'Montserrat', sans-serif;
+  font: bold 20px/36px 'Helvetica', sans-serif;
   color: #333;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -130,7 +130,7 @@ header .header-social li a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 11px 'Montserrat', sans-serif;
+  font: 11px 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   float: left;
@@ -172,7 +172,7 @@ ul.nav li button {
   transition: color 0.2s ease-in-out;
   background-color: transparent;
   font-size: 11px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 ul.nav li button:hover {
   color: #fff;
@@ -213,7 +213,7 @@ ul.nav li.current button {
   margin: 54px auto 24px auto;
 }
 .hero-text h1 {
-  font: 600 40px/1.2em 'Montserrat', sans-serif;
+  font: 600 40px/1.2em 'Helvetica', sans-serif;
   color: #505050;
   padding: 0;
   margin: 0;
@@ -223,7 +223,7 @@ ul.nav li.current button {
   color: #11abb0;
 }
 .hero-text p {
-  font: 18px/30px 'Open Sans', sans-serif;
+  font: 18px/30px 'Helvetica', sans-serif;
   padding: 0;
   margin: 12px 8% 0;
 }
@@ -244,7 +244,7 @@ ul.nav li.current button {
   margin: 0 0 18px 0;
 }
 #hero .buttons .button {
-  font: bold 14px/24px 'Montserrat', sans-serif;
+  font: bold 14px/24px 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -293,7 +293,7 @@ ul.nav li.current button {
   float: left;
 }
 #features h3 {
-  font: bold 16px/24px 'Montserrat', sans-serif;
+  font: bold 16px/24px 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #222;
@@ -321,7 +321,7 @@ ul.nav li.current button {
   margin-bottom: 36px;
 }
 .plan-title {
-  font: 600 15px/30px 'Montserrat', sans-serif;
+  font: 600 15px/30px 'Helvetica', sans-serif;
   padding: 30px 20px 6px 20px;
   margin-bottom: 0px;
   text-align: center;
@@ -334,7 +334,7 @@ ul.nav li.current button {
   font-size: 26px;
 }
 .plan-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 30px;
   font-weight: bold;
   color: #333;
@@ -344,7 +344,7 @@ ul.nav li.current button {
   letter-spacing: 0.5px;
 }
 .plan-price span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 15px;
   font-weight: 300;
   color: #999;
@@ -371,7 +371,7 @@ ul.features li:nth-child(even) {
   text-align: center;
 }
 .plan-sign-up .button {
-  font: bold 13px/24px 'Montserrat', sans-serif;
+  font: bold 13px/24px 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -495,7 +495,7 @@ ul.features li:nth-child(even) {
   padding-bottom: 48px;
 }
 #call-to-action h1 {
-  font: bold 18px/24px 'Montserrat', sans-serif;
+  font: bold 18px/24px 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -519,7 +519,7 @@ ul.features li:nth-child(even) {
   text-align: center;
 }
 #call-to-action h2 {
-  font: bold 28px/36px 'Montserrat', sans-serif;
+  font: bold 28px/36px 'Helvetica', sans-serif;
   color: #ebeeee;
   margin-bottom: 12px;
 }
@@ -532,7 +532,7 @@ ul.features li:nth-child(even) {
   padding-right: 5px;
 }
 #call-to-action p span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 600;
   color: #a9b5c0;
 }
@@ -580,7 +580,7 @@ ul.features li:nth-child(even) {
   margin: 0 auto;
 }
 #testimonials h1 {
-  font: bold 16px/24px 'Montserrat', sans-serif;
+  font: bold 16px/24px 'Helvetica', sans-serif;
   color: #6aecf0;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -597,7 +597,7 @@ ul.features li:nth-child(even) {
   content: none;
 }
 #testimonials blockquote p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 600;
   color: #fff;
@@ -793,7 +793,7 @@ ul.features li:nth-child(even) {
   padding: 18px 20px;
   font-size: 18px;
   line-height: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   width: 47%;
   text-align: center;
 }
@@ -845,7 +845,7 @@ footer .right-cols .columns p {
 }
 
 footer h3 {
-  font: 600 13px/24px 'Open Sans', sans-serif;
+  font: 600 13px/24px 'Helvetica', sans-serif;
   margin-bottom: 0;
   color: #fff;
   text-transform: uppercase;
@@ -1121,5 +1121,21 @@ a#imagelightbox-close:focus {
   #imagelightbox-close {
     top: 1.25em; /* 20 */
     right: 1.25em; /* 20 */
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* l. get-started
+/* ------------------------------------------------------------------ */
+
+#get-started {
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+/* For high-res devices */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #get-started {
+    background-color: #fafafa;
   }
 }

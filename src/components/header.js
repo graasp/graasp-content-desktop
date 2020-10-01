@@ -11,7 +11,7 @@ export default () => (
       <AnchorLink to="/#top">
         <img
           className="logo-image"
-          alt=""
+          alt="Graasp"
           src={useSiteMetadata().logo}
           height="33"
         />
