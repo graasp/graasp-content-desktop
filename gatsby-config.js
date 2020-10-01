@@ -4,8 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const env = process.env.NODE_ENV === 'production' ? 'prod' : 'dev';
+
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${env}`,
 });
 
 module.exports = {
