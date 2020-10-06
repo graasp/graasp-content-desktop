@@ -6,4 +6,4 @@ button1:
 
 button2:
   label: Get Started (FR)
-  to: '/documents/Get%20Started%20(EN).pdf'
+  to: '/documents/Get%20Started%20(FR).pdf'
