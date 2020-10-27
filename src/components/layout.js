@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import CookieConsent from 'react-cookie-consent';
-
+import ReactGA from 'react-ga';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 
@@ -49,6 +49,10 @@ function Layout({ children }) {
         buttonText="Accept"
         cookieName="gatsby-gdpr-google-analytics"
         buttonStyle={{ background: '#fafafa', fontSize: '13px' }}
+        onAccept={() => {
+          ReactGA.initialize(process.env.GA_TRACKING_ID);
+          ReactGA.pageview('/');
+        }}
         sameSite="lax"
       >
         We use cookies and other tracking technologies to improve your browsing
