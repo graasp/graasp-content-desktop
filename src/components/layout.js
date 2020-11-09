@@ -50,7 +50,7 @@ function Layout({ children }) {
         cookieName="gatsby-gdpr-google-analytics"
         buttonStyle={{ background: '#fafafa', fontSize: '13px' }}
         onAccept={() => {
-          ReactGA.initialize(process.env.GA_TRACKING_ID);
+          ReactGA.initialize(process.env.GATSBY_GA_TRACKING_ID);
           ReactGA.pageview('/');
         }}
         sameSite="lax"
