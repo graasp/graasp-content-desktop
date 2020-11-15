@@ -18,7 +18,19 @@ module.exports = {
       name: `Graasp`,
     },
     description: `Graasp Desktop is a free, cross-platform desktop client for the Graasp ecosystem.`,
-
+    metaImage: { height: 576, width: 902 },
+    keywords: [
+      'education',
+      'graasp',
+      'elearning',
+      'e-learning',
+      'interactive',
+      'collaborative',
+      'learning',
+      'offline',
+      'analytics',
+    ],
+    siteUrl: 'https://desktop.graasp.org',
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
