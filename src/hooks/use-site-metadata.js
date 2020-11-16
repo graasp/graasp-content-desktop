@@ -12,6 +12,12 @@ export const useSiteMetadata = () => {
             author {
               name
             }
+            keywords
+            siteUrl
+            metaImage {
+              width
+              height
+            }
             sections
             favicon
             logo

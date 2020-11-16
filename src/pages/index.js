@@ -12,6 +12,7 @@ import Subscribe from '../components/subscribe';
 import GetStarted from '../components/get-started';
 
 import { useSiteMetadata } from '../hooks/use-site-metadata';
+import Seo from '../components/seo';
 
 export default () => {
   const { sections } = useSiteMetadata();
@@ -29,6 +30,7 @@ export default () => {
   return (
     <>
       <Layout>
+        <Seo />
         {sections.map((section) => {
           const Tagname = availableSections[section];
           return <Tagname />;
