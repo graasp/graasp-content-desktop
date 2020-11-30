@@ -14,10 +14,6 @@ export const useSiteMetadata = () => {
             }
             keywords
             siteUrl
-            metaImage {
-              width
-              height
-            }
             sections
             favicon
             logo
