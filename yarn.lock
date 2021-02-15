@@ -960,6 +960,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.11.2":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
+  integrity sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.10.2":
   version "7.11.4"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.11.4.tgz#e25a0fa05e9373545a1a38ad4462acfbec7d8a87"
@@ -1535,7 +1542,7 @@
     prop-types "^15.7.2"
     tslib "^2.0.0"
 
-"@reach/router@^1.3.4":
+"@reach/router@1.3.4", "@reach/router@^1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
   integrity sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA==
@@ -6046,16 +6053,15 @@ gatsby-plugin-anchor-links@^1.1.1:
   dependencies:
     scroll-to-element "^2.0.3"
 
-gatsby-plugin-gdpr-cookies@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-1.0.7.tgz#9bc5d4ce4143e316a9bb0572a54695336616c78d"
-  integrity sha512-wOl4c3IAFzQEwrjcQlIWSfGxEEt0gIeP4JInK5y6+L2jbEicRZ9Apk49ZSQuDAA/487ChFuIec6g/V4JYSV1MQ==
+gatsby-plugin-gdpr-cookies@1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-1.0.12.tgz#9a5ec67e8d4acb68987962a42a4e1223e0e81a44"
+  integrity sha512-hLyMVyYkUTcTxKN+abA/lQFVIT5anBpkn27N5aWz5BwfxoAvzNaQrshcdhsB5kHsD0aazGh4ubDKyL0g5ylUpg==
   dependencies:
-    "@babel/runtime" "^7.8.4"
+    "@babel/runtime" "^7.11.2"
     common-tags "^1.8.0"
     minimist "^1.2.5"
-    react-ga "^2.7.0"
-    universal-cookie "^4.0.3"
+    universal-cookie "^4.0.4"
 
 gatsby-plugin-page-creator@^2.3.23:
   version "2.3.23"
@@ -10679,16 +10685,6 @@ react-focus-lock@^2.3.1:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
-react-ga@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.2.0.tgz#a8ea91e8e681f49d30afcee72d71fc5c71b67d57"
-  integrity sha512-YHHG5QIzRdDToB9ST1/BrGQhLZPzkrNjoeTu3SZLgwdqzeA9F2XOStuOGXAp1ak/SAo9pyR1Uo/hY0C5wZwfqA==
-
-react-ga@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.7.0.tgz#24328f157f31e8cffbf4de74a3396536679d8d7c"
-  integrity sha512-AjC7UOZMvygrWTc2hKxTDvlMXEtbmA0IgJjmkhgmQQ3RkXrWR11xEagLGFGaNyaPnmg24oaIiaNPnEoftUhfXA==
-
 react-helmet@^6.0.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
@@ -13015,7 +13011,7 @@ unist-util-visit@^1.1.0:
   dependencies:
     unist-util-visit-parents "^2.0.0"
 
-universal-cookie@^4.0.3:
+universal-cookie@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/universal-cookie/-/universal-cookie-4.0.4.tgz#06e8b3625bf9af049569ef97109b4bb226ad798d"
   integrity sha512-lbRVHoOMtItjWbM7TwDLdl8wug7izB0tq3/YVKhT/ahB4VDvWMyvnADfnJI8y6fSvsjh51Ix7lTGC6Tn4rMPhw==
